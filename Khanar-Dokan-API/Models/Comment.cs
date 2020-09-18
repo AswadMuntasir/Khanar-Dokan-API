@@ -18,7 +18,7 @@ namespace Khanar_Dokan_API.Models
         [Required]
         public string comment1 { get; set; }
 
-        public virtual FoodItem FoodItem { get; set; }
-        public virtual User User { get; set; }
+        public virtual FoodItem FoodItems { get; set; }
+        public virtual User Users { get; set; }
     }
 }

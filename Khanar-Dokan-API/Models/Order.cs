@@ -9,16 +9,12 @@ namespace Khanar_Dokan_API.Models
     public class Order
     {
         [Key]
-        public int oId { get; set; }
-
-        public int hId { get; set; }
-
-        public int uId { get; set; }
+        public int oid { get; set; }
 
         public string oStatus { get; set; }
 
+        public virtual History Histories { get; set; }
 
-        public virtual History History { get; set; }
-        public virtual User User { get; set; }
+        public virtual User Users { get; set; }
     }
 }

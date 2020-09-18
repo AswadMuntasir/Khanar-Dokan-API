@@ -25,5 +25,8 @@ namespace Khanar_Dokan_API.Models
         public string fimagefile { get; set; }
 
         public int catid { get; set; }
+
+        public virtual Category Categories { get; set; }
+
     }
 }

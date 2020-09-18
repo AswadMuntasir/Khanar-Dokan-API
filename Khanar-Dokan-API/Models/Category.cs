@@ -11,10 +11,6 @@ namespace Khanar_Dokan_API.Models
         [Key]
         public int catid { get; set; }
 
-        public int fid { get; set; }
-
         public string catname { get; set; }
-
-        public virtual FoodItem FoodItem { get; set; }
     }
 }
